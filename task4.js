@@ -26,7 +26,7 @@ function MobilleDevice(type,currentType, typeDevice, sizeDevice,vattDeviceOut, c
 MobilleDevice.prototype = new Device();
 
 MobilleDevice.prototype.getActiveDevice = function(active){
-    console.log(`Вывод данных образуется при состоянии:${active}`) 
+    console.log(`Вывод данных c телефона образуется при состоянии:${active}`) 
 }
 
 const lamp = new Device ("Lamp", "Small", "60 Вт", "0,052 A");
