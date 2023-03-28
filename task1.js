@@ -17,7 +17,7 @@ for (let key in man) {
 
     if (man.hasOwnProperty(key)) {
 
-        console.log(key);
+        console.log(key, man[key]);
     }   
 }
 }

@@ -1,7 +1,7 @@
 
 
 function Device (typeDevice, sizeDevice, vattDeviceOut , currentStrength){
-   this.voltageInput = "220 v",
+    this.voltageInput = "220 v",
     this.typeDevice = typeDevice,
     this.sizeDevice = sizeDevice,
     this.vattDeviceOut = vattDeviceOut,

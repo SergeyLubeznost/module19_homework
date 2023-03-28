@@ -2,7 +2,7 @@
 
 function emptyObj (){
     const man3 = Object.create(null);
-    console.log(man3);
+   return man3;
 }
 
-emptyObj()
+console.log(emptyObj());

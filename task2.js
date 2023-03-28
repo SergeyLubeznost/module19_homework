@@ -14,7 +14,7 @@ man2.ownName = "Петя";
 man2.ownSurname = "Летов";
 
 function nameSearch(keys, object){
-    console.log(keys in object);
+  return  keys in object;
 }
-nameSearch("name", human2);
-nameSearch("ownName1", man2);
+console.log(nameSearch("name", human2));
+console.log(nameSearch("ownName1", man2));
